@@ -16,4 +16,54 @@ html { box-sizing: border-box; }
 
 body {
 	background-color: #bdc3c7;
+	position:relative;
+}
+
+.profil {
+	border: 2px solid yellow;
+	display: block;
+	width: 300px;
+	font-family: 'Montserrat', sans-serif;
+	justify-content: center;
+	position:absolute;
+	box-shadow: 5px 5px 5px grey;
+	background: #31363b;
+	color: #bdc3c7;
+	font-size: 16px;
+	padding: 20px;
+	
+}
+img {
+	width: 250px;
+	padding: 0;
+
+}
+.odkazy {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.odkazy li {
+	text-decoration: none;
+	text-align: center;
+	text-transform:uppercase;
+	display: inline-block;
+	border: 1px solid #3f464d;
+	padding: 20px;
+}
+
+.portfolio {
+	margin-left:20px;
+	margin-right:20px;
+}
+.facebook {
+	width: 50%;
+}
+.twitter {
+	width: 50%;
+}
+.odkazy a {
+	text-decoration: none;
+	color: #bdc3c7;
 }
