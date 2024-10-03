@@ -20,10 +20,10 @@ body {
 }
 
 .profil {
-	border: 2px solid yellow;
 	display: block;
 	width: 300px;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 500px;
 	justify-content: center;
 	position:absolute;
 	box-shadow: 5px 5px 5px grey;
@@ -54,8 +54,7 @@ img {
 }
 
 .portfolio {
-	margin-left:20px;
-	margin-right:20px;
+	width:100%;
 }
 .facebook {
 	width: 50%;
@@ -66,4 +65,13 @@ img {
 .odkazy a {
 	text-decoration: none;
 	color: #bdc3c7;
+}
+.portfolio:hover {
+	background: #e74c3c;
+}
+.facebook:hover {
+	background: #3b5998;
+}
+.twitter:hover {
+	background: #1da1f2;
 }
